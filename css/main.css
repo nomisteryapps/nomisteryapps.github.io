@@ -1,0 +1,76 @@
+/*reset*/
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background-color: #999999 !important;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+.dooplicator {
+    text-align: center;
+}
+
+.dooplicator h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    max-width: 60%;
+    margin: auto;
+}
+
+.check {
+    list-style: none;
+}
+
+.check li:before {
+    content: '✓ ';
+}
+
+.doop-logo {
+    max-width: 50%;
+    height: auto;
+}
+
+.doop-tagline {
+    text-transform: lowercase;
+    font-size: 1.4rem;
+}
+
+.doop-images {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

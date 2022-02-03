@@ -1,64 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<style>
-.button {
-background-color: #2196F3;
-border: 100%;
-color: black;
-padding: 10px 30px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
-}
-body {
-font-size: large;
-}
-footer {
-font-size: small;
-}
-a:hover, a:visited, a:link, a:active
-{
-text-decoration: none;
-}
-</style>
-<title>dooplicator | the easiest way to duplicate your snowmobile, all-terrain vehicle, and personal watercraft key!</title>
-<link rel="icon" href="favicon.ico">
-<center>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<body style="background-color:999999;">
-<p style="text-align:center;">
-<a href="index.html"><img src="dooplicator.png" alt="dooplicator" class="center" style="max-width:50%;height:auto;"></a>
-<br>
-<br>
-dooplicator is the easiest way to duplicate your snowmobile, all-terrain vehicle, and personal watercraft key!
-<br>
-<br>
-<a href="https://apps.apple.com/us/app/dooplicator/id1585564247">
-<img src="apple.png" alt="download it on the app store" class="center" height="80" width="212">
-</a>
-<a href="https://play.google.com/store/apps/details?id=com.nomisteryapps.Dooplicator">
-<img src="google.png" alt="get it on google play" class="center" height="80" width="212">
-</a>
-<br>
-<br>
-this service works with <b>ALL RF DESS</b> keys for 2015 to 2022 Ski-Doo, Sea-Doo, and Can-Am models
-<br>
-<br>
-<a href="order.html" class="button">💳 ORDER A KEY 💳</a>
-<br>
-<br>
-questions? <a href="mailto:support@dooplicator.com">contact us</a>
-</p>
-</body>
-<footer>
-<p>
-<br>
-© 2020 - 2022 dooplicator | made in yellowknife, canada
-</p>
-</footer>
-</center>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="canonical" href="https://www.dooplicator.com" />
+  <title>Dooplicator | The easiest way to duplicate your snowmobile, all-terrain vehicle, and personal watercraft key!</title>
 </head>
+
+<body class="dooplicator">
+  <main class="container py-4">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <a href="/">
+        <img itemprop="logo" src="dooplicator.png" alt="Duplicate your atv, jetski or skidoo key online. Just scan and order your key." class="mx-auto d-block doop-logo" />
+      </a>
+      <h1 itemprop="description" class="mx-auto d-block doop-tagline pt-4">Dooplicator is the easiest way to duplicate your snowmobile, all-terrain vehicle, and personal watercraft key!</h1>
+    </div>
+
+    <div class="doop-images py-4">
+
+      <a href="https://apps.apple.com/us/app/dooplicator/id1585564247">
+        <img src="apple.png" alt="download it on the app store" class="pr-2" height="80" width="212">
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.nomisteryapps.Dooplicator">
+        <img src="google.png" alt="get it on google play" height="80" width="212">
+      </a>
+    </div>
+
+    <p>this service works with <strong>ALL RF DESS</strong> keys for 2015 to 2022 Ski-Doo, Sea-Doo, and Can-Am models</p>
+
+    <a href="order.html" type="button" class="btn btn-primary btn-lg">💳 Order a Key Now 💳</a>
+
+    <p class="center-block button"><em>no need to mail in current key, can order online</em></p>
+
+    <p><strong>questions ??</strong> <a href="mailto:support@dooplicator.com">contact us</a></p>
+
+    <button class="btn btn-secondary" data-bs-toggle="modal" data-tagVideo="scan.mp4" data-bs-target="#howtoVideo">See how it works ▶</button>
+
+    <div class="modal fade" id="howtoVideo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="howtoVideoLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Key scanning demo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <video width="100%" controls>
+              <source src="scan.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div class="container">
+    <footer class="py-5">
+
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p class="mx-auto d-block">© 2020 - 2022 <a href="/" title="duplicate your snowmobile or atv key online via app">dooplicator</a> | made in yellowknife, canada</p>
+      </div>
+    </footer>
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
